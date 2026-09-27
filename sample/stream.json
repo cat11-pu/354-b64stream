@@ -1,0 +1,14 @@
+{
+  "budget": 2,
+  "byte_code": "E_BAD_BYTE",
+  "short_code": "E_SHORT",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "groups": [], "buffer": "", "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "feed", "text": "abcde" },
+    { "id": 2, "kind": "emit" },
+    { "id": 3, "kind": "feed", "text": "f" },
+    { "id": 4, "kind": "emit" },
+    { "id": 5, "kind": "feed", "text": "g" }
+  ]
+}
